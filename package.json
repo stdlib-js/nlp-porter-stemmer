@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/nlp-porter-stemmer",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Extract the stem of a given word.",
   "license": "Apache-2.0",
   "author": {
