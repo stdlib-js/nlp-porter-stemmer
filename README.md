@@ -72,18 +72,6 @@ out = porterStemmer( 'fighting' );
 
 <!-- /.usage -->
 
-* * *
-
-<section class="references">
-
-## References
-
--   Porter, Michael F. 1980. "An algorithm for suffix stripping." _Program_ 13 (3): 130–37. doi:[10.1108/eb046814][@porter:1980].
-
-</section>
-
-<!-- /.references -->
-
 <section class="examples">
 
 ## Examples
@@ -109,6 +97,18 @@ out = porterStemmer( '' );
 </section>
 
 <!-- /.examples -->
+
+* * *
+
+<section class="references">
+
+## References
+
+-   Porter, Michael F. 1980. "An algorithm for suffix stripping." _Program_ 13 (3): 130–37. doi:[10.1108/eb046814][@porter:1980].
+
+</section>
+
+<!-- /.references -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
