@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-string": "^0.0.x",
     "@stdlib/string-ends-with": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x",
     "@stdlib/string-lowercase": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x"
   },
