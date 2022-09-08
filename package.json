@@ -38,10 +38,10 @@
   },
   "dependencies": {
     "@stdlib/assert-is-string": "^0.0.x",
-    "@stdlib/string-ends-with": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x",
-    "@stdlib/string-lowercase": "^0.0.x",
-    "@stdlib/string-replace": "^0.0.x"
+    "@stdlib/string-base-ends-with": "^0.0.x",
+    "@stdlib/string-base-lowercase": "^0.0.x",
+    "@stdlib/string-base-replace": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/assert-is-empty-string": "^0.0.x",
