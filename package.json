@@ -41,7 +41,7 @@
     "@stdlib/string-base-ends-with": "^0.0.2",
     "@stdlib/string-base-lowercase": "^0.1.1",
     "@stdlib/string-base-replace": "^0.0.2",
-    "@stdlib/string-format": "^0.0.3"
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-empty-string": "^0.0.8",
