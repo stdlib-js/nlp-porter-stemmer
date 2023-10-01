@@ -44,9 +44,9 @@
     "@stdlib/string-format": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-empty-string": "^0.0.8",
+    "@stdlib/assert-is-empty-string": "^0.1.0",
     "@stdlib/bench": "^0.1.0",
-    "@stdlib/datasets-stopwords-en": "^0.0.9",
+    "@stdlib/datasets-stopwords-en": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
