@@ -29,7 +29,7 @@ var porterStemmer = require( './../../dist' );
 
 // FIXTURES //
 
-var words = require( './../..xtures/words.json' );
+var words = require( './../fixtures/words.json' );
 
 
 // TESTS //
