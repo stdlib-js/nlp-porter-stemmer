@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,73 +16,18 @@
 * limitations under the License.
 */
 
-/* eslint-disable no-new-wrappers */
-
 'use strict';
 
 // MODULES //
 
 var tape = require( 'tape' );
-var isEmptyString = require( '@stdlib/assert-is-empty-string' );
-var porterStemmer = require( './../../dist' );
-
-
-// FIXTURES //
-
-var words = require( './../fixtures/words.json' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof porterStemmer, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'if the first argument is not a string primitive, the function throws an error', function test( t ) {
-	var values;
-	var i;
-
-	values = [
-		new String( 'beep' ),
-		5,
-		null,
-		true,
-		void 0,
-		NaN,
-		[],
-		{},
-		function noop() {}
-	];
-
-	for ( i = 0; i < values.length; i++ ) {
-		t.throws( badValue( values[i] ), TypeError, 'throws an error when provided '+values[i] );
-	}
-	t.end();
-
-	function badValue( value ) {
-		return function badValue() {
-			porterStemmer( value );
-		};
-	}
-});
-
-tape( 'the function stems an input string using the Porter stemming algorithm', function test( t ) {
-	var expected;
-	var actual;
-	var i;
-
-	for ( i = 0; i < words.original.length; i++ ) {
-		expected = words.stemmed[ i ];
-		actual = porterStemmer( words.original[ i ] );
-		t.equal( actual, expected, 'returns the expected string' );
-	}
-	t.end();
-});
-
-tape( 'the function returns an empty string if provided an empty string', function test( t ) {
-	var out = porterStemmer( '' );
-	t.equal( isEmptyString( out ), true, 'returns an empty string' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
