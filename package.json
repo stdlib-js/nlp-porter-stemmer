@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/nlp-porter-stemmer",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Extract the stem of a given word.",
   "license": "Apache-2.0",
   "author": {
@@ -38,11 +38,11 @@
   },
   "dependencies": {
     "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/string-base-ends-with": "^0.2.1",
-    "@stdlib/string-base-lowercase": "^0.3.1",
-    "@stdlib/string-base-replace": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/string-base-ends-with": "^0.2.2",
+    "@stdlib/string-base-lowercase": "^0.4.0",
+    "@stdlib/string-base-replace": "^0.2.2",
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-empty-string": "^0.2.1",
