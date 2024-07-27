@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import porterStemmer from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-porter-stemmer@esm/index.mjs';
+import porterStemmer from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-porter-stemmer@v0.2.2-esm/index.mjs';
 ```
 
 #### porterStemmer( word )
@@ -79,7 +79,7 @@ out = porterStemmer( 'fighting' );
 <body>
 <script type="module">
 
-import porterStemmer from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-porter-stemmer@esm/index.mjs';
+import porterStemmer from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-porter-stemmer@v0.2.2-esm/index.mjs';
 
 var out = porterStemmer( 'walking' );
 // returns 'walk'
