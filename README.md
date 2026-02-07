@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import porterStemmer from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-porter-stemmer@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/nlp-porter-stemmer/tags). For example,
+
+```javascript
 import porterStemmer from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-porter-stemmer@v0.2.3-esm/index.mjs';
 ```
 
@@ -79,7 +84,7 @@ out = porterStemmer( 'fighting' );
 <body>
 <script type="module">
 
-import porterStemmer from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-porter-stemmer@v0.2.3-esm/index.mjs';
+import porterStemmer from 'https://cdn.jsdelivr.net/gh/stdlib-js/nlp-porter-stemmer@esm/index.mjs';
 
 var out = porterStemmer( 'walking' );
 // returns 'walk'
